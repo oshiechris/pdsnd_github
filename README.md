@@ -17,3 +17,4 @@ wash
 
 ### Credits
 loaindg maybe not now
+final changes on git trying tounderstand how the commit commnd works
