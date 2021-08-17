@@ -82,7 +82,57 @@ def station_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+@@ -1 6,6 +1 6,1 0 @@ weekdays =
+('sunday', 'monday', 'tuesday',
+'wednesday', 'thursday', 'friday', def
+choice(prompt, choices=('y', 'n')):
+"""Return a valid input from the
+user given an array of possible
+answers.
++
+Args:
++ (str) prompt - prompt with input
+request
++ (tup) choices - tuple with
+elements of possible answers """ $
+git diff diff
+--git a/README.md b/README.md
+index 1 3a6e85..bb56def 1 00644 ---
+a/README.md
++++ b/README.md @@ -5,6 +5,1 8
+@@ ### Description This is a CLI
+program developed to allow the
+user to explore bikeshare system
+database in three different states in
+the US and retrieve statistics
+information from the database. The
+user is able to filter the information
+by city, month and weekday, in
+order to visualize statistics
+information related to a specific
+git push origin master
+subset of data.
++#### Getting Started
++ +This program is structured in 2
+steps.
++ +In a first moment, the user
+selects the filters that are going to
+be applied to the database. The
+user is able to chose as many filters
+as it would like.
++ +After this step, the DataFrame
+for the analysis is created based on
+the filters chosen by the user.
++ +In a second moment, the user is
+able to chose, from a list of options,
+the statistics the user would like to
+calculate, based on the available
+filtered data.
++ +As of April 2, 201 9 the user is
+now able to chose to view raw data
+and also able sort this data by
+columns, in ascending or
+descending order
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
