@@ -31,6 +31,8 @@ def get_filters():
 #Add print
 statement warning regarding
 Washington's lack of user data
+# git commit -m “Add exception to
+trip duration stats”
 
 
 def load_data(city, month, day):
