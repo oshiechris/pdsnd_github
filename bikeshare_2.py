@@ -28,6 +28,10 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
+#Add print
+statement warning regarding
+Washington's lack of user data
+
 
 def load_data(city, month, day):
     """
